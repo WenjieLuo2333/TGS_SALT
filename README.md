@@ -18,7 +18,7 @@ Build in Adam optimizer<br/>
 ```epochs = 200```<br/>
 ```batch_size = 32```<br/>
 ```early_stopping = EarlyStopping(patience=10, verbose=1)```<br/>
-###Loss<br/> 
+### Loss<br/> 
 mean-IOU<br/>
 
 ### Best Accuracy
