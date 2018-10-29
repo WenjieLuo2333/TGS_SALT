@@ -3,6 +3,8 @@
 All the codes and comments are in a single jupyter notebook filr named ```kernel.py```.<br/>
 Build with ```numpy```,```keras```,```tensorflow```,```pandas```<br/>
 Highly recommend to run jupyter notebook file on [Kaggle Kernel](https://www.kaggle.com/wenjieluo/tgs-wj). Just sign up and fork the notebook and then it's easy to run it with Kaggle Kernel's build in environment and GPU is provided.<br/>
+## Data Set
+Please download data from [here](https://www.kaggle.com/c/tgs-salt-identification-challenge/data).<br/>
 ## Trainning Strategy<br/>
 ### model<br/>
 Unet-like Structure with Resnet Model<br/>
