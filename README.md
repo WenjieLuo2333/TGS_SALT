@@ -20,6 +20,8 @@ Build in Adam optimizer<br/>
 ```early_stopping = EarlyStopping(patience=10, verbose=1)```<br/>
 ### Loss<br/> 
 mean-IOU<br/>
-
+### Accuracy and loss for train and validation<br/>
+![alt text](https://github.com/WenjieLuo2333/TGS_SALT/blob/master/__results___28_0.png)<br/>
+Blue for training and yellow for validation.<br/>
 ### Best Accuracy
 Best Accuracy is at 77.6%.
