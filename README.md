@@ -27,3 +27,20 @@ mean-IOU<br/>
 Blue for training and yellow for validation.<br/>
 ### Best Accuracy
 Best Accuracy is at 77.6%.
+<br/>
+<br/>
+# Website Part
+## Framework
+Our Website is build under Django Framework with Python backend.
+
+## Local Server Build Instruction
+Install Django by ```sudo apt-get install python3-django```<br/>
+Unzip the file ```proj_web.tar.gz``` and place it where ever you like.
+Enter the proj_web dir ```cd ./proj_web/mysite``` <br/>
+
+Some absolute path in the file need to be modified.
+In ```./tgs/views.py``` line 85, change the path into the local path of your keras model.
+
+And then, in ```./proj_web/mysite``` run ```python manage.py runserver``` to start the local server.
+
+Open your browser and enter ```localhost:8000/tgs/``` to see the website.
